@@ -5,6 +5,7 @@ go 1.23.0
 toolchain go1.24.0
 
 require (
+	github.com/aws-controllers-k8s/runtime/apis v0.0.0
 	github.com/aws/aws-sdk-go-v2 v1.32.7
 	github.com/aws/aws-sdk-go-v2/config v1.28.6
 	github.com/aws/aws-sdk-go-v2/credentials v1.17.47
@@ -27,6 +28,8 @@ require (
 	k8s.io/klog/v2 v2.130.1
 	sigs.k8s.io/controller-runtime v0.20.4
 )
+
+replace github.com/aws-controllers-k8s/runtime/apis => ./apis
 
 require (
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.16.21 // indirect
