@@ -2,8 +2,6 @@ module github.com/aws-controllers-k8s/runtime
 
 go 1.23.0
 
-toolchain go1.24.0
-
 require (
 	github.com/aws-controllers-k8s/runtime/apis v0.0.0
 	github.com/aws/aws-sdk-go-v2 v1.32.7
